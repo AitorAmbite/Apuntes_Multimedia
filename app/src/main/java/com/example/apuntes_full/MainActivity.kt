@@ -137,6 +137,12 @@ class MainActivity : AppCompatActivity() {
     *           nombre?.let{ <- esto nos permitiria realizar acciones si nombre no es nulo.
     *
     *           }
+    *
+    *  - - - - FINDVIEWBYID - - - -
+    * usar esto en caso de no poder acceder directamente <- momento catastrofe
+    *
+    * val imagen = findViewById<ImageView>(R.id.imagen)
+    *
     * */
 
 
